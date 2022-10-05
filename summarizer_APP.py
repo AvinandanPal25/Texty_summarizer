@@ -11,7 +11,9 @@ now = datetime.datetime.now()
 dt = now.strftime('%H%M%S') #this will distinguish each article, 
 
 cv = CountVectorizer(stop_words='english', max_features=10)
-# nltk.download('wordnet') #for importing lemmatizer
+nltk.download('stopwords')
+Stop_words = nltk.corpus.stopwords.words('english')
+nltk.download('wordnet') #for importing lemmatizer
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer() 
 nltk.download('punkt') #for importing tokenizer functionality
