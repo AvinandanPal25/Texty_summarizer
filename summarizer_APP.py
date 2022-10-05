@@ -14,7 +14,7 @@ cv = CountVectorizer(stop_words='english', max_features=10)
 # nltk.download('wordnet') #for importing lemmatizer
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer() 
-# nltk.download('punkt') #for importing tokenizer functionality
+nltk.download('punkt') #for importing tokenizer functionality
 import en_core_web_sm  #for part of speech tagging
 nlp = en_core_web_sm.load()
 from nltk.tokenize import sent_tokenize
