@@ -1,7 +1,38 @@
 Project REPORT on --
  
   "An Extractive Approach for Automatic Text Summarization using Machine Learning Technique"
---------------------------------------------------
-Introduction: Automatic text processing is a research field that is currently extremely active. One important task in this field is automatic summarization , which consists of reducing the size of a text while preserving its information content. In this paper, the automatic summarization task is addressed. Recent research works on extractive-summary generation employ some heuristics, but few works indicate how to select the relevant features. This project presents the whole procedure based on the application of trainable Machine Learning algorithms which employ a set of features extracted directly from the original text.
-  Automatic document summarization is a proper direction to reduce the tedious process of understanding every document, which makes people understand the main concept of an article faster. Automatic summarization is the process of reducing a text Document with a computer program in order to create a summary that retains the most important points of the original document.
-  Summarization can be done is two ways. Extractive and Abstructive summarization. Extractive methods aim to select the most important set of sentences from the original document as summary. Therefore, the way to solve the problem is by finding a ranking function for each sentence in a document, and then stich together the top ranked sentences together. On the other hand, abstractive summarization methods generate a whole new summary after understanding the topic of the original document.
+---------------------------------------------------------------------------------------------
+> WHY the Project: Automatic text processing is a research field that is currently extremely active. One important task in this field is automatic summarization , which consists of reducing the size of a text while preserving its information content. 
+  In this data-rich era, we have very less time to consume huge amount of data, process it and make a sense out of it. We need a gist out of everything. Automatic document summarization is a proper direction to reduce this tedious process of understanding every document, which makes people understand the main concept of an article faster. Automatic summarization is the process of reducing a text Document with a computer program in order to create a summary that retains the most important points of the original document. Thus we get a clear picture of the whole without losing much time in a simpler way. 
+  There aren't many sites where we can do this online. Again all these limited resources are rigid over what lenght do we need to have in our summary. By default it is 33% of the actual document. But time to time we might need a very short gist, an 1/4th para, or a detailed summary. This project keeps this mind. In this Project, you can choose any summary length between 10% and 75%, as none would required a summary of less than 10% or as more as 80 or 90%.
+
+> WHAT the Project: In this project, the automatic summarization task is addressed. Recent research works on extractive-summary generation employ some heuristics, but few works indicate how to select the relevant features. This project presents the whole procedure based on the application of trainable Machine Learning algorithms which employ a set of features extracted directly from the original text.Summarization can be done is two ways. Extractive and Abstructive summarization. Extractive methods aim to select the most important set of sentences from the original document as summary. Therefore, the way to solve the problem is by finding a ranking function for each sentence in a document, and then stich together the top ranked sentences together. On the other hand, abstractive summarization methods generate a whole new summary after understanding the topic of the original document.
+
+> HOW the Project: First of all the text needs to be processed to get it ready for the modelling. 
+
+ >> 1. Text Processing includes, 
+   (a) case-lowering: (so that "Play" and "play" are treated as one i.e. "play"), 
+   (b) Contraction Removal: (removing short forms. eg. "I'm" is changed to "I am", "couldn't" is changed to "could not" etc.),
+   (c) Punctuation Removal: (Since punctuation marks doesn't associate with any meaning they are removed for now),
+   (d) Tokenization: (this is for seperating each sentences from a document, and each words from a sentence),
+   (e) Stop Words Removal: (Stop words are those words that occure very frequently in the article and doesn't impact much on the context of the article. eg. "I" has the same meaning whether the article is on Movies or on Politics. But "director" or "polotics" these words specify a certain domain), 
+   (f) Lemmatization: (this is done to get all words to their root form. i.e "Playing", "plays", "Play" all are changed into "play").
+ 
+ >> After these 6 steps, the article is converted into a set of lists. Each list basically is a line that has gone through these many steps and thus includes all the important root words in that sentence.
+
+ >> Next step is to apply the 6 techniques that are depicted in the "Technique Description.txt" file.
+
+ >> If we reach till this level, we are done with ranking the important sentences. The last step would be to stitch those top ranked sentences together untill summary length becomes close enough to the desired summary length. 
+
+---> And that's it. Job DONE!!!
+------------------------------------------------------------------------------------------------
+
+Further works:: 
+1. Adding "Abstractive Summarization model (Deep Learning techinques),
+2. Limiting summary to desired number of sentences,
+3. Topic based summary generation. This would include sentiment analysis and ML algorithms, 
+4. Instead of typing or pasting whether we can retrive the text from a pdf. In that case alphabet recognition is to be implemente, which will be a big task.
+5. Multi-Language summarizer dashboard. All-in-one Summarizer tool. 
+
+----> Anyone who is interested for any of the aforesaid or anything else, related to the Project, don't raise your hand. Just get it done, get your own hands dirty.... 
+I'm just kidding :), Suggestion are always welcomed, just like your valuable feedbacks. Thanks reader.
