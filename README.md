@@ -54,9 +54,11 @@ For which some other files like requirements.txt file, setup file. Procfile etc 
 
 ## **APP Screenshots:--**
 
-![App Interface](https://drive.google.com/file/d/1qwiVSV1dkY3TFRyYaYZ5uED4E1wqx7zl/view?usp=sharing)
-![Pasting the Article](https://drive.google.com/file/d/1qwiVSV1dkY3TFRyYaYZ5uED4E1wqx7zl/view?usp=sharing)
-![Summary Generation](https://drive.google.com/file/d/1qwiVSV1dkY3TFRyYaYZ5uED4E1wqx7zl/view?usp=sharing)
+![App Interface](https://drive.google.com/uc?export=view&id=1qwiVSV1dkY3TFRyYaYZ5uED4E1wqx7zl)
+
+![Uploading the Article](https://drive.google.com/uc?export=view&id=1shlTn1GIDphihvyATaqltduyfXpqQGK5)
+
+![Summary Generation](https://drive.google.com/uc?export=view&id=1NkV2VHzsALMAX4RvTasEOrPb0lRabtpR)
 
 
 ## **Deployed App:--**
